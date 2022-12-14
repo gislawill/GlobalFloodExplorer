@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.map-container {
+  height: 100vh;
+  grid-area: map;
+}
+
+.boxdraw {
+  border: 3px solid #d66e57;
+  border-radius: 5px;
+}
+
+.screen {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: 
+    "map";
+}
+
+.center-ref-container {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%; 
+  display: flex;
+  justify-content: center;
+}
